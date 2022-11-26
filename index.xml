@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>https://github.com/samkamirov/urtk/</link>
+    <link>https://samkamirov.github.io/urtk/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://github.com/samkamirov/urtk/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://samkamirov.github.io/urtk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>УрТК НИЯУ МИФИ: Круглый стол «Развивающее наставничество для атомной отрасли России»</title>
-      <link>https://github.com/samkamirov/urtk/panel-discussion/</link>
+      <link>https://samkamirov.github.io/urtk/panel-discussion/</link>
       <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/samkamirov/urtk/panel-discussion/</guid>
+      <guid>https://samkamirov.github.io/urtk/panel-discussion/</guid>
       <description>«Никакие знания и навыки не передаются иначе как от человека к человеку, за каждым успешным человеком в любой сфере деятельности всегда стоит учитель, наставник. Особое уважение вызывают люди, которые через наставничество передают другим свои знания и навыки в рабочих профессиях, в науке, в управлении»
 С.В. Кириенко, Первый заместитель руководителя Администрация Президента России
 28 октября 2022 г. на площадке Уральского технологического колледжа – филиала НИЯУ МИФИ в рамках международной научно-практической конференции «Развивающее наставничество для атомной отрасли России» состоялся тематический Круглый стол.</description>
@@ -19,37 +19,37 @@
     
     <item>
       <title>Cтуденты на БАЭС</title>
-      <link>https://github.com/samkamirov/urtk/third_post/</link>
+      <link>https://samkamirov.github.io/urtk/third_post/</link>
       <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/samkamirov/urtk/third_post/</guid>
+      <guid>https://samkamirov.github.io/urtk/third_post/</guid>
       <description>В июне 2022 г. для студентов УрТК НИЯУ МИФИ прошла серия учебно-ознакомительных экскурсий на Белоярскую АЭС.</description>
     </item>
     
     <item>
       <title>Всероссийский день библиотек</title>
-      <link>https://github.com/samkamirov/urtk/libraryday/</link>
+      <link>https://samkamirov.github.io/urtk/libraryday/</link>
       <pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/samkamirov/urtk/libraryday/</guid>
+      <guid>https://samkamirov.github.io/urtk/libraryday/</guid>
       <description>Сначала ребята приняли участие в онлайн-конкурсе «Поэты атомных городов – детям» по чтению вслух стихотворений авторов, проживающих в городах присутствия Госкорпорации «Росатом». Три студента-победителя на муниципальном уровне, сняли прекрасное видео прочтения стихов зареченских авторов, которые были отправлены на Всероссийский конкурс, организованный Управлением культуры Администрации ЗАТО Северск. После этого студенты всех специальностей первого курса померялись силами в БиблиоКвесте. Ребята отгадывали литературных героев, авторов книг, псевдонимы, расшифровывали и шифровали азбукой Морзе и шрифтом Брайля.</description>
     </item>
     
     <item>
       <title>#Community_Profi - 2022</title>
-      <link>https://github.com/samkamirov/urtk/second_post/</link>
+      <link>https://samkamirov.github.io/urtk/second_post/</link>
       <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/samkamirov/urtk/second_post/</guid>
+      <guid>https://samkamirov.github.io/urtk/second_post/</guid>
       <description>20 мая 2022 года в рамках цикла профориентационных мероприятий #CommunityProfi прошла встреча студентов выпускного курса УрТК НИЯУ МИФИ с представителями крупнейших базовых предприятий – филиала АО «Концерн Росэнергоатом» «Белоярская атомная станция», АО «Институт реакторных материалов», «Уралатомэнергоремонт» - филиал АО «Атомэнергоремонт», Филиал ОАО «МРСК Урала» - «Свердловэнерго».</description>
     </item>
     
     <item>
       <title>Posts Archive</title>
-      <link>https://github.com/samkamirov/urtk/archive/</link>
+      <link>https://samkamirov.github.io/urtk/archive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/samkamirov/urtk/archive/</guid>
+      <guid>https://samkamirov.github.io/urtk/archive/</guid>
       <description>This page contains an archive of all posts.</description>
     </item>
     

@@ -43,11 +43,11 @@ header {
     /* width: 100%; */
 }
 
-.menu__item--main:hover .dropdown-menu{
+/* .menu__item--main:hover .dropdown-menu{
     display: flex;
     flex-direction: row;
     width: auto;
-}
+} */
 
 .dropdown-menu {
     display: none;

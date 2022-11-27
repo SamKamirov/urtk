@@ -1,6 +1,3 @@
-/* @import 'header.css'; */
-@import 'carousel.css';
-/* @import 'normalize.css'; */
 :root {
     --backcolor: rgb(0,85,187);
     --post-width: 25em;
@@ -11,10 +8,6 @@
 * {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-}
-
-body {
-    margin:0;
 }
 
 .news__header { 
@@ -57,7 +50,7 @@ body {
     /* max-height: 300px; */
 }
 
-.image__wrapper .item__image {
+.image__wrapper + .item__image {
     width: 100%;
     height: auto;
     border-radius: 5px;

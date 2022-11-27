@@ -50,7 +50,7 @@
     /* max-height: 300px; */
 }
 
-.image__wrapper + .item__image {
+.post__image {
     width: 100%;
     height: auto;
     border-radius: 5px;

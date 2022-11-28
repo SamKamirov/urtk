@@ -30,6 +30,12 @@ header {
 }
 
 @media screen and (min-width: 300px) and (max-width: 767px) {
+    header {
+        position: fixed;
+        top:0;
+        width: 100%;
+    }
+
     .menu {
         display: none;
     }

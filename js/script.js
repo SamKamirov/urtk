@@ -45,24 +45,19 @@ function showSlides() {
 
 //Menu
 
-// var mainMenuItem = document.querySelector('.menu__item--main')
-// var dropdown = document.querySelector('.dropdown-menu')
-// var dropdownItems = document.querySelectorAll('.dropdown-menu__item')
-// var dropdownItemsHidden = document.querySelectorAll('.dropdown-menu__hidden')
+const toggleMenu = () => {
+    const toggle = document.querySelector('.toggle__menu')
+    const menu = document.querySelector('.menu')
+    const infoMenu = document.querySelector('.menu--show')
 
-// mainMenuItem.addEventListener('click', (evt)=> {
-//     if (evt.target.className == "menu__item menu__item--main") {
-//        dropdown.classList.toggle('show')
-//     }
-// })
+    toggle.addEventListener('click', ()=> {
+        menu.classList.toggle('menu--active')    
+    })
 
-// for (let index = 0; index < dropdownItemsHidden.length; index++) {
-//     dropdownItems[index].addEventListener('click', ()=> {
-//         dropdownItemsHidden[index].classList.toggle('show')
-//     })
-// }
+    infoMenu.addEventListener('click', ()=> {
+      menu.classList.toggle('menu--active')  
+    })
+}
 
-// dropdown.addEventListener('mouseleave', ()=> {
-//     dropdown.classList.remove('show')
-// })
+toggleMenu()
 

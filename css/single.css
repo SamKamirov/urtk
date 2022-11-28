@@ -22,7 +22,6 @@
 
 .image__wrapper {
     display: flex;
-    position: relative;
 }
 
 .item__image {

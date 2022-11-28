@@ -7,10 +7,11 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-html {
-    line-height: 1.15; /* 1 */
-    -webkit-text-size-adjust: 100%; /* 2 */
-}
+
+/* html {
+    line-height: 1.15; 
+    -webkit-text-size-adjust: 100%;
+} */
   
   /* Sections
      ========================================================================== */
@@ -36,6 +37,10 @@ html {
   main {
     display: block;
   }
+
+  ul {
+    list-style-type: none;
+  }
   
   /**
    * Correct the font size and margin on `h1` elements within `section` and
@@ -44,7 +49,6 @@ html {
   
   h1 {
     font-size: 2em;
-    margin: 0.67em 0;
   }
   
   /* Grouping content
@@ -171,6 +175,10 @@ html {
     font-size: 100%; /* 1 */
     line-height: 1.15; /* 1 */
     margin: 0; /* 2 */
+  }
+
+  button {
+    border: none;
   }
   
   /**

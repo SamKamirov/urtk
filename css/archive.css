@@ -35,13 +35,17 @@
 }
 
 .archive__title {
+    padding: 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
     text-overflow: ellipsis;
     max-width: 35em;
     text-align: center;
 }
 
 .archive__date {
-    min-width: 100px;
+    font-size: calc(12px + 0.1vw);
+    min-width: fit-content;
     align-self: flex-end;
     flex-wrap: nowrap;
 }

@@ -142,6 +142,10 @@ header {
 }
 
 @media screen and (min-width: 1000px) {
+    header {
+        background-color: red;
+    }
+
     .menu {
         display: none;
         list-style-type: none;

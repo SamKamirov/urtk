@@ -1,14 +1,14 @@
 .post__wrapper {
-    position: relative;
     max-width: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
+    padding-top: 50px;
 }
 
 .post {
-    padding: 0 0px;
+    padding: 0 10px 10px 10px;
 }
 
 .post__heading {
@@ -29,3 +29,15 @@
     margin: 0 auto;
     padding: 10px 0;
 }
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+
+  }
+  
+@media screen and (min-width: 768px) and (max-width: 999px) { 
+    
+  }
+  
+@media screen and (min-width: 1000px) {
+    
+  }

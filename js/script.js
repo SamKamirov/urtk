@@ -51,7 +51,7 @@ const toggleMenu = () => {
     const infoMenu = document.querySelector('.menu--show')
 
     toggle.addEventListener('click', ()=> {
-        menu.classList.toggle('menu--active')    
+        menu.classList.toggle('menu--active')   
     })
 
     infoMenu.addEventListener('click', ()=> {

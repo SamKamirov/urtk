@@ -64,9 +64,12 @@
     font-size: calc(12px + 1vw);
     text-align: center;
     background-color: var(--backcolor);
-    padding: 10px 0;
+    /* padding: 10px 0; */
 }
 
-.more_news a {
+.news__button {
+    display: block;
     color: var(--post-color);
+    background-color: transparent;
+    padding: 10px;
 }

@@ -5,8 +5,10 @@ const toggleMenu = () => {
   const toggle = document.querySelector('.toggle__menu')
   const menuList = document.querySelector('.menu__list')
   const showMenu = document.querySelector('.menu--show')
+  const menu = document.querySelector('.menu')
   
-  toggle.addEventListener('click', () => {
+  toggle.addEventListener('pointerdown', () => {
+    // menu.classList.toggle('active')
     menuList.classList.toggle('active')
   })
 
@@ -22,12 +24,16 @@ const toggleMenu = () => {
     menuList.classList.remove('active')
   })
 
-  menuList.addEventListener('pointerover', ()=> {
+  menuList.addEventListener('mouseover', ()=> {
     menuList.classList.add('active')
   })
 
-  menuList.addEventListener('pointerleave', ()=> {
+  menuList.addEventListener('mouseout', ()=> {
     menuList.classList.remove('active')
+  })
+  
+  menuList.addEventListener('pointerdown', ()=> {
+    menuList.classList.add('active')
   })
 }
 

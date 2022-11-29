@@ -30,7 +30,7 @@ header {
 }
 
 .logo, .menu--show{
-    font-size: calc(11px + 1vw);
+    font-size: 24px;
 }
 
 .logo {
@@ -47,7 +47,7 @@ header {
     color: rgb(255, 255, 255);
     cursor: pointer;
     background-color: transparent;
-    padding: calc((50px - (14px + 1vw)) / 2) 10px;
+    padding: 11px;
 }
 
 .menu__list li {
@@ -56,15 +56,11 @@ header {
     text-overflow:ellipsis;
 }
 
-.menu__list li:hover {
-    background-color: rgb(0,187,238);
-}
-
-.toggle__menu {
-    display: none;
-}
-
 @media screen and (min-width: 300px) and (max-width: 767px) { 
+    .logo {
+        font-size: 20px;
+    }
+
     .header-wrapper {
         position: relative;
     }   
@@ -84,6 +80,7 @@ header {
     .menu__list {
         display: none;
         position: absolute;
+        top: 50px;
         left: 0;
         width: 100%;
         height: 100vh;
@@ -91,7 +88,7 @@ header {
     }
 
     .toggle__menu {
-        display: inline;
+        display: block;
         position: relative;
         background-color: red;
         width: 50px;
@@ -139,6 +136,7 @@ header {
     .menu__list {
         display: none;
         position: absolute;
+        top: 50px;
         width: 100%;
         justify-content: space-between;
         align-items: center;

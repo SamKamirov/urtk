@@ -35,6 +35,10 @@ const toggleMenu = () => {
   menuList.addEventListener('pointerdown', ()=> {
     menuList.classList.add('active')
   })
+
+  menuList.addEventListener('pointerdown', ()=> {
+    menuList.classList.add('active')
+  })
 }
 
 toggleMenu()
